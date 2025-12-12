@@ -7,6 +7,7 @@ FastAPI Backend
 Flutter Mobile App Frontend
 REST API for real-time dengue risk prediction
 
+
 📌 1. Project Overview
 
 Dengue is a growing health concern influenced by weather conditions such as rainfall, temperature, humidity, and seasonal patterns.
@@ -18,6 +19,7 @@ This project uses historical data (2016–2024) to:
 ✔ Provide a Flutter mobile app for easy user interaction
 
 This system helps researchers, health departments, and the public better understand and forecast dengue risk.
+
 
 📊 2. Dataset Details
 
@@ -40,6 +42,8 @@ After training the model, the system predicts:
 ✔ Risk score
 ✔ Risk category (Low, Medium, High)
 ✔ 2025 predictions for all months & regions
+
+
 🤖 3. Machine Learning Model
 Algorithms Used:
 
@@ -57,6 +61,8 @@ Risk score based on distance from centroids
 
 Future risk predictions (2025)
 
+
+
 ⚙️ 4. Backend (FastAPI)
 
 The backend provides APIs for:
@@ -72,6 +78,9 @@ Features:
 ✔ Displays predicted category & risk
 ✔ Shows 2025 monthly risk charts
 ✔ Modern and responsive UI
+
+
+
 🛠️ 7. How to Configure Everything
 Step 1 — Train Model (Optional)
 
@@ -93,9 +102,12 @@ WiFi IP address
 
 OR Deploy backend online (Render / AWS / Railway)
 
-App:
+
+Prediction Page:
+
 
 ![WhatsApp Image 2025-12-12 at 9 05 33 PM](https://github.com/user-attachments/assets/3f4fe950-6c2d-4ba6-9d59-01b8237de6ad)
+
 
 
 

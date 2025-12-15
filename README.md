@@ -1,8 +1,8 @@
 # Dengue-Risk-Prediction-System
-A Machine Learning–powered system for predicting dengue risk levels using weather and dengue data (2016–2024), with predictions for the year 2025.
+A Machine Learning–powered system for predicting dengue risk levels using weather and dengue data (2016–2024), with predictions for the year 2025 and for the yaer 2026.
 Includes:
 
-ML Model (Python + Scikit-Learn)
+ML Model (Python + Scikit-Learn, Time serie Forecasting)
 FastAPI Backend
 Flutter Mobile App Frontend
 REST API for real-time dengue risk prediction
@@ -14,7 +14,7 @@ Dengue is a growing health concern influenced by weather conditions such as rain
 This project uses historical data (2016–2024) to:
 
 ✔ Train a dengue risk clustering model
-✔ Predict and classify dengue risk for 2025 (all months & regions)
+✔ Predict and classify dengue risk for 2025 and 2026 (all months & regions)
 ✔ Expose a prediction API using FastAPI
 ✔ Provide a Flutter mobile app for easy user interaction
 
@@ -51,6 +51,8 @@ K-Means Clustering
 
 PCA (Principal Component Analysis) for visualization & dimensionality reduction
 
+Time series Forecasting for 2026 dengue data
+
 StandardScaler for feature scaling
 
 Model Outputs:
@@ -76,7 +78,7 @@ Features:
 ✔ Form for input values
 ✔ Sends data to FastAPI backend
 ✔ Displays predicted category & risk
-✔ Shows 2025 monthly risk charts
+✔ Shows 2025, 2026 monthly risk charts
 ✔ Modern and responsive UI
 
 
